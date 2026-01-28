@@ -1,3 +1,4 @@
+import Header from "@/components/layout/Header";
 import Container from "@/components/common/Container";
 
 export default function RootLayout({
@@ -8,9 +9,8 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <Container>
-          {children}
-        </Container>
+        <Header />
+        <Container>{children}</Container>
       </body>
     </html>
   );
