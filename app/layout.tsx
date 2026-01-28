@@ -1,3 +1,5 @@
+import Container from "@/components/common/Container";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,8 +7,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body style={{ margin: 0, fontFamily: "system-ui, sans-serif" }}>
-        {children}
+      <body>
+        <Container>
+          {children}
+        </Container>
       </body>
     </html>
   );
