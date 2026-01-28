@@ -1,3 +1,4 @@
+import "./globals.css";
 import Header from "@/components/layout/Header";
 import Container from "@/components/common/Container";
 
