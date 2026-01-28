@@ -57,7 +57,7 @@ export default function Home() {
           </div>
 
           <p className="mt-10 text-xs text-black/50">
-            확인 방법: 저장 → 브라우저 자동 리로드 → 상단 "DEV OK" 배지가 보이면 정상.
+            확인 방법: 저장 → 브라우저 자동 리로드 → 상단 &quot;DEV OK&quot; 배지가 보이면 정상.
           </p>
         </div>
       </div>
